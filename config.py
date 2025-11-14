@@ -3,11 +3,11 @@ INST_COOKIES = """
 """
 YTUB_COOKIES = """
 """
-API_ID = int(getenv("API_ID", "25880697"))
-API_HASH = getenv("API_HASH", "ccbeeaf507caf64c00ec327407faa7a2")
-BOT_TOKEN = getenv("BOT_TOKEN", "8490241782:AAHGYsKxP71TMPMRazZF3Ef4ceIsPabnut4")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 OWNER_ID = list(map(int, getenv("OWNER_ID", "7618349770 7336381823").split()))
-MONGO_DB = getenv("MONGO_DB", "mongodb+srv://fixmayart834:FMWwXBd4JJYMs2Iv@cluster0.ltpube9.mongodb.net/?retryWrites=true&w=majority")
+MONGO_DB = getenv("MONGO_DB", "")
 CHANNEL_ID = int(getenv("CHANNEL_ID", "-1002504099057"))
 FREEMIUM_LIMIT = int(getenv("FREEMIUM_LIMIT", "5000000"))
 PREMIUM_LIMIT = int(getenv("PREMIUM_LIMIT", "50000000"))
